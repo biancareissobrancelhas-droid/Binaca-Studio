@@ -1,0 +1,44 @@
+{
+  "name": "Bianca Reis Studio",
+  "short_name": "Bianca Reis",
+  "description": "Gestão de studio de micropigmentação — Agenda, Clientes e Financeiro",
+  "start_url": "./bianca_reis_pwa.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0E0B16",
+  "theme_color": "#0E0B16",
+  "lang": "pt-BR",
+  "scope": "./",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Nova Agenda",
+      "short_name": "Agendar",
+      "description": "Adicionar novo atendimento",
+      "url": "./bianca_reis_pwa.html#agenda",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Clientes",
+      "short_name": "Clientes",
+      "description": "Ver lista de clientes",
+      "url": "./bianca_reis_pwa.html#clientes",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "categories": ["productivity", "business"],
+  "screenshots": []
+}
